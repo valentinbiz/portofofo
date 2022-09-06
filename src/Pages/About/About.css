@@ -1,0 +1,108 @@
+.about-page {
+    height: fit-content;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "header header header header"
+        "basic basic front other"
+        "basic basic back adobe"
+        "cv cv cv cv";
+}
+
+@media only screen and (max-width: 1170px) {
+    .about-page {
+        height: fit-content;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas: "header header"
+            "basic basic"
+            "front other"
+            "back adobe"
+            "cv cv"
+
+    }
+}
+
+.about-page .header {
+    grid-area: header;
+}
+
+.about-me {
+    grid-area: basic;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding-left: 0;
+    padding-right: 2.5vw;
+}
+
+.about-me h2 {
+    padding-bottom: 20px;
+    font-size: 1.7rem;
+}
+
+.about-me h3 {
+    font-weight: 500;
+    font-size: 1.3rem;
+    width: 100%;
+}
+
+
+
+.front-end {
+
+    grid-area: front;
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    padding-left: 2.5vw;
+
+}
+
+.back-end {
+    grid-area: back;
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    padding-left: 2.5vw;
+
+}
+
+.other-skills {
+    grid-area: other;
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    padding-left: 5vw;
+
+}
+
+.adobe {
+    grid-area: adobe;
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    padding-left: 5vw;
+}
+
+.cv {
+    top: -30px;
+    grid-area: cv;
+    display: flex;
+    text-align: left;
+
+}
+
+.cv h4 {
+    top: 0;
+}
+
+.cv-link {
+    text-decoration: none;
+    color: var(--accent);
+}
+
+.highlighted-text {
+    color: #578283;
+}

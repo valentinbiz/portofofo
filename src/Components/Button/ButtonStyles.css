@@ -1,0 +1,17 @@
+button {
+  color: var(--on-background);
+  padding: 0.5em 1.7em;
+  font-size: 0.8em;
+  border-radius: 0.5em;
+  background: var(--background);
+  border: 1px solid var(--on-background);
+  transition: all .3s;
+
+}
+
+button:hover{
+  cursor: pointer;
+}
+button:active {
+  transform: translateY(4px);
+}

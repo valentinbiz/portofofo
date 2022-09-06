@@ -1,0 +1,66 @@
+.contact-container {
+  background-color: var(--background);
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 1fr 6fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "title title"
+    "text form"
+    "footer footer";
+}
+
+@media only screen and (max-width: 940px) {
+  .contact-container {
+    background-color: var(--background);
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "title"
+      "text"
+      "form"
+      "footer";
+  }
+}
+
+.title {
+  grid-area: title;
+}
+
+.footer-section {
+  grid-area: footer;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.contact-form {
+  grid-area: form;
+  padding: 40px 40px 40px 40px;
+}
+
+.message {
+  grid-area: text;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: justify;
+  padding: 20px 20px 20px 20px;
+}
+
+.message h1,
+h3 {
+  font-weight: 500;
+  font-size: 1.3rem;
+}
+
+.message h1 {
+  color: var(--accent);
+  font-size: 1.5rem;
+}
+
+.animation-container {
+  height: 30vh;
+  width: 30vw;
+}

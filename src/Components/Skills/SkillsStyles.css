@@ -1,0 +1,64 @@
+.front-skills-container  {
+  color: var(--on-background);
+  font-weight: 500;
+  padding-left: 0px;
+  /* padding-bottom: 15px; */
+  width: 100%;
+}
+
+.list-container {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  font-size: 1.3rem;
+  padding-top: 0px;
+
+}
+
+.list-container h3{
+  padding-bottom: 20px;
+  font-size: 1.7rem;
+  font-weight: 600;
+}
+
+.list-container p{
+  background-color: transparent;
+  width: fit-content;
+   border: 0px;
+  font-weight: 500;
+  cursor: pointer;
+  color: var(--on-background);
+  opacity: 0.8;
+  -webkit-transition: opacity 0.4s ease-out;
+  -o-transition: opacity 0.4s ease-out;
+  transition: opacity 0.4s ease-out;
+  letter-spacing: -0.1px;
+  position: relative;
+  padding-bottom: 1px;
+  padding-top: 5px;
+}
+
+.list-container p::before{
+  content: '';
+  position: absolute;
+  width: 100%;
+  max-width: 0;
+  height: 1px;
+  bottom: -1px;
+  left: 0;
+  background-color: var(--on-background);
+  opacity: 0;
+  -webkit-transition: max-width 0.4s ease-out;
+  -o-transition: max-width 0.4s ease-out;
+  transition: max-width 0.4s ease-out;
+}
+
+.list-container p:hover{
+  opacity: 1;
+}
+
+.list-container p:hover::before{
+  opacity: 1;
+  visibility: visible;
+  max-width: 100%;
+}
