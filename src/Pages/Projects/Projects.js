@@ -15,7 +15,7 @@ AOS.init();
 export default class Projects extends React.Component {
   render() {
     return (
-      <section id="section-projects">
+      <section id="projects">
         <div className="projects-container">
           <div data-aos="fade-up" data-aos-duration="2000" className="header">
             <h1> .projects </h1>

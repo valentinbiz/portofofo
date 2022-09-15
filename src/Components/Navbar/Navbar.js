@@ -59,25 +59,25 @@ export default function Navbar() {
     <div className="navbar-container"  data-aos="fade-up" data-aos-delay="1000" data-aos-duration="2000">
       <header>
         <p className="logo">
-          <HashLink smooth to="/page#section-main" className="logo-name">
+          <HashLink smooth to="/#main" className="logo-name">
             tinek
           </HashLink>
         </p>
         <nav>
           <ul className="nav__links">
             <li>
-              <HashLink smooth to="/page#section-projects">
+              <HashLink smooth to="/#projects">
                 projects
               </HashLink>
             </li>
             <li>
-              <HashLink smooth to="/page#section-about">
+              <HashLink smooth to="/#about">
                
                 about
               </HashLink>
             </li>
             <li>
-              <HashLink smooth to="/page#section-contact">
+              <HashLink smooth to="/#contact">
                 contact
               </HashLink>
             </li>
@@ -96,13 +96,13 @@ export default function Navbar() {
       <div id="mobile__menu" className="overlay">
         <p className="close">&times;</p>
         <div className="overlay__content">
-          <HashLink smooth to="/page#section-about">
+          <HashLink smooth to="/#about">
             About{" "}
           </HashLink>
-          <HashLink smooth to="/page#section-projects">
+          <HashLink smooth to="/#projects">
             Projects{" "}
           </HashLink>
-          <HashLink smooth to="/page#section-contact">
+          <HashLink smooth to="/#contact">
             Contact
           </HashLink>
           <div className="theme-switch">

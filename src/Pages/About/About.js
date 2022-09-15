@@ -16,7 +16,7 @@ AOS.init();
 export default class About extends React.Component {
   render() {
     return (
-      <section id="section-about">
+      <section id="about">
         <div className="about-page">
           <div className="header" data-aos="fade-up" data-aos-duration="1000">
             <h1> .about </h1>

@@ -30,7 +30,7 @@ export default function Main() {
     return () => Lottie.destroy();
   });
   return (
-    <section id="section-main">
+    <section id="main">
       <div className="main-page">
         <div className="text-container">
           <p

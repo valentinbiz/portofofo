@@ -33,7 +33,7 @@ export default function Contact() {
   });
 
   return (
-    <section id="section-contact">
+    <section id="contact">
       <div className="contact-container">
         <div className="title">
           <div className="header" data-aos="fade-up" data-aos-duration="1000">
