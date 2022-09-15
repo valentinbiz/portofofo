@@ -2,5 +2,5 @@
   publish = "build"
 [[redirects]]
   from = "/*"
-  to = "https://www.tinek.uk/"
+  to = "/"
   status = 301
