@@ -1,17 +1,9 @@
-.front-skills-container  {
-  color: var(--on-background);
-  font-weight: 500;
-  padding-left: 0px;
-  /* padding-bottom: 15px; */
-  width: 100%;
-}
-
 .list-container {
   display: flex;
   flex-direction: column;
   align-items: left;
   font-size: 1.3rem;
-  padding-top: 0px;
+  padding-top: 30px;
 
 }
 

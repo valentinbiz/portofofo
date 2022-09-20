@@ -17,14 +17,14 @@ export default class Projects extends React.Component {
     return (
       <section id="projects">
         <div className="projects-container">
-          <div data-aos="fade-up" data-aos-duration="2000" className="header">
+          <div data-aos="fade-up" data-aos-duration="1000" className="header">
             <h1> .projects </h1>
           </div>
           <div className="projects-page">
             <div
               className="project"
               data-aos="fade-up"
-              data-aos-duration="2000"
+              data-aos-duration="1000"
               data-aos-delay="50"
             >
               <div className="sorting">
@@ -34,7 +34,7 @@ export default class Projects extends React.Component {
             <div
               className="project"
               data-aos="fade-up"
-              data-aos-duration="2000"
+              data-aos-duration="1000"
               data-aos-delay="60"
             >
               <div className="productivity">
@@ -44,7 +44,7 @@ export default class Projects extends React.Component {
             <div
               className="project"
               data-aos="fade-up"
-              data-aos-duration="2000"
+              data-aos-duration="1000"
               data-aos-delay="70"
             >
               <div className="ecom">
@@ -54,7 +54,7 @@ export default class Projects extends React.Component {
             <div
               className="project"
               data-aos="fade-up"
-              data-aos-duration="2000"
+              data-aos-duration="1000"
               data-aos-delay="80"
             >
               <div className="pic">

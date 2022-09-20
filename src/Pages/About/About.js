@@ -8,8 +8,9 @@ import BackEnd from "../../Components/Skills/BackEnd";
 import OtherSkills from "../../Components/Skills/OtherSkills";
 import Adobe from "../../Components/Skills/Adobe";
 
+import { TbExternalLink } from "react-icons/tb";
+
 import "./About.css";
-import { HashLink } from "react-router-hash-link";
 
 AOS.init();
 
@@ -49,27 +50,33 @@ export default class About extends React.Component {
               and platforms, <strong className="highlighted-text">Agile</strong>{" "}
               and <strong className="highlighted-text">TDD</strong> principles.
               On this page you can see some of my favourite tools to work with.{" "}
-              <br /> <br /> Oh, by the way. I have a degree in Business
-              Economics from Coventry University, where I graduated in 2019.{" "}
             </h3>
-          </div>
-          <div
-            className="cv"
-            data-aos="fade-up"
-            data-aos-duration="1000"
-            data-aos-delay="50"
-          >
-            {" "}
-            <h4>
+            <div
+              className="cv"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-delay="50"
+            >
               {" "}
-              <br /> <br />
-              For more information about my studies and experience, please check
-              the attached CV{" "}
-              <HashLink smooth to="/page#section-projects" className="cv-link">
-                <strong className="highlighted-text">here.</strong>{" "}
-              </HashLink>{" "}
-            </h4>
+              <h4>
+                {" "}
+                <br /> <br />
+                For more information about my studies and experience, please
+                check the attached CV{" "}
+                <a
+                  href="https://drive.google.com/file/d/1ZDUXVNFMJ6_5Pqa0MkqwaNb8ZMtQLrtC/view?usp=sharing"
+                  className="cv-link"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <strong className="highlighted-text">
+                    here. <TbExternalLink />
+                  </strong>{" "}
+                </a>{" "}
+              </h4>
+            </div>
           </div>
+
           <div
             className="front-end"
             data-aos="fade-up"

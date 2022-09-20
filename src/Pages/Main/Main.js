@@ -37,7 +37,7 @@ export default function Main() {
             className="first-p"
             data-aos="fade-up"
             data-aos-delay="500"
-            data-aos-duration="2000"
+            data-aos-duration="1000"
           >
             {" "}
             Hi, I am Valentin <FontAwesomeIcon
@@ -46,16 +46,16 @@ export default function Main() {
             />{" "}
             <br />{" "}
           </p>
-          <h2 data-aos="fade-up" data-aos-delay="1000" data-aos-duration="2000">
+          <h2 data-aos="fade-up" data-aos-delay="1000" data-aos-duration="1000">
             I am a self-thought Full Stack Developer, <br /> sports and
             literature enthusiast, <br />
             coffee lover and a die hard The Office fan.
           </h2>
-          <HashLink smooth to="/page#section-projects">
+          <HashLink smooth to="/#projects">
             <h4
               data-aos="fade-up"
               data-aos-delay="1000"
-              data-aos-duration="2000"
+              data-aos-duration="1000"
             >
               {" "}
               check some of my work{" "}
@@ -66,7 +66,7 @@ export default function Main() {
           className="footer-animation"
           data-aos="fade-up"
           data-aos-delay="1000"
-          data-aos-duration="2000"
+          data-aos-duration="1000"
         >
           <div className="scroll-container" ref={animationContainerScroll} />
         </div>
@@ -74,7 +74,7 @@ export default function Main() {
           <div
             id="background"
             data-aos="zoom-in"
-            data-aos-duration="2000"
+            data-aos-duration="1000"
           ></div>
         </div>
       </div>

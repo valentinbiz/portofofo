@@ -6,8 +6,6 @@ import Projects from "./Pages/Projects/Projects";
 import Contact from "./Pages/Contact/Contact";
 import Main from "./Pages/Main/Main";
 
-import './Pages.css'
-
 function App() {
   return (
       <div className="pages-container">

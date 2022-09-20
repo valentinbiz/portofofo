@@ -6,23 +6,9 @@
     grid-template-areas: "header header header header"
         "basic basic front other"
         "basic basic back adobe"
-        "cv cv cv cv";
+        "cv cv nothing nothing";
 }
 
-@media only screen and (max-width: 1170px) {
-    .about-page {
-        height: fit-content;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr;
-        grid-template-areas: "header header"
-            "basic basic"
-            "front other"
-            "back adobe"
-            "cv cv"
-
-    }
-}
 
 .about-page .header {
     grid-area: header;
@@ -51,7 +37,6 @@
 
 
 .front-end {
-
     grid-area: front;
     display: flex;
     justify-content: center;
@@ -87,7 +72,7 @@
 }
 
 .cv {
-    top: -30px;
+    top: -60px;
     grid-area: cv;
     display: flex;
     text-align: left;
@@ -105,4 +90,44 @@
 
 .highlighted-text {
     color: #578283;
+}
+
+@media only screen and (max-width: 1170px) {
+    .about-page {
+        height: fit-content;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas: "header header"
+            "basic basic"
+            "front other"
+            "back adobe"
+            "cv nothing"
+
+    }
+}
+
+@media only screen and (max-width: 470px) {
+    .about-page {
+        height: fit-content;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        padding-right: 0;
+        grid-template-areas: "header"
+            "basic "
+            "front"
+            "other"
+            "back"
+            "adobe"
+            "cv"
+
+    }
+
+    .about-page .front-end,
+    .back-end,
+    .adobe,
+    .other-skills {
+        padding-left: 0;
+    }
 }
