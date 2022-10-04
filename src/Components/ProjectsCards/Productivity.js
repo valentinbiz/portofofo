@@ -14,13 +14,13 @@ import "./CardStyles.css";
 
 export default function Productivity() {
   return (
-    <div class="center second">
-      <div class="card green">
-        <div class="additional">
-          <div class="user-card">
+    <div className="center second">
+      <div className="card green">
+        <div className="additional">
+          <div className="user-card">
             <FontAwesomeIcon icon={faChartLine} size="3x" />
           </div>
-          <div class="more-info">
+          <div className="more-info">
             <div className="info-title">
               <h1> Productivity App </h1>
             </div>
@@ -59,15 +59,15 @@ export default function Productivity() {
             </div>
           </div>
         </div>
-        <div class="general">
-          <h2>Productivity App</h2>
+        <div className="general">
+          <h1>Productivity App</h1>
           <p>
-            <br /> With procrastination being one of the biggest enemies when
+             With procrastination being one of the biggest enemies when
             teaching yourself a new subject, the purpose of this application is
-            to maximize productivity while helping you keep track of your daily
-            tasks.
+            to maximize productivity (pomodoro technique) while helping you keep track of your daily
+            tasks (kanban board).
           </p>
-          <span class="more">Mouse over the card for more info</span>
+          <span className="more">Mouse over the card for more info</span>
         </div>
       </div>
     </div>

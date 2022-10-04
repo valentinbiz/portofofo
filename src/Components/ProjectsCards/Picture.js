@@ -13,13 +13,13 @@ import "./CardStyles.css";
 
 export default function Picture() {
   return (
-    <div class="center third">
-      <div class="card blue">
-        <div class="additional">
-          <div class="user-card">
+    <div className="center third">
+      <div className="card blue">
+        <div className="additional">
+          <div className="user-card">
             <FontAwesomeIcon icon={faImages} size="3x" />
           </div>
-          <div class="more-info">
+          <div className="more-info">
             <div className="info-title">
               <h1> Picture in Picture </h1>
             </div>
@@ -53,15 +53,15 @@ export default function Picture() {
             </div>
           </div>
         </div>
-        <div class="general">
+        <div className="general">
           <h1>Picture in Picture</h1>
           <p>
             {" "}
-            <br /> Application created with the purpose to help people make use
+            Application created with the purpose to help people make use
             of their screens in a more efficient way while studying/watching
             tutorials (or just pretending to work). <br />{" "}
           </p>
-          <span class="more">Mouse over the card for more info</span>
+          <span className="more">Mouse over the card for more info</span>
         </div>
       </div>
     </div>

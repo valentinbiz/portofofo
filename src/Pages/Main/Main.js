@@ -42,7 +42,7 @@ export default function Main() {
             {" "}
             Hi, I am Valentin <FontAwesomeIcon
               icon={faHandPointer}
-              size="1"
+              size="1x"
             />{" "}
             <br />{" "}
           </p>

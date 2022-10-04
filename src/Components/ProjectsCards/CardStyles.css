@@ -40,7 +40,6 @@
 
 .card .additional .user-card {
   width: 10vw;
-  min-width: 150px;
   height: 100%;
   position: relative;
   float: left;
@@ -86,12 +85,13 @@
   "instructions"
   "buttons";
   text-align: justify;
+  font-size:calc(12px + 0.3vw);
 }
 
 .card .additional .more-info .info-title {
   color: black;
   grid-area: title;
-  padding-top: 2rem;
+  padding-top: 10px;
   text-align: justify;
 }
 
@@ -99,6 +99,7 @@
   color: black;
   grid-area: icons;
   display: flex;
+  flex-wrap: wrap;
 }
 
 .card .additional .more-info .info-tech .tech-icons{
@@ -135,13 +136,14 @@
   z-index: 1;
   display: flex;
   flex-direction: column;
-  padding-top: 2rem;
+  padding-top: 10px;
   text-align: justify;
   float: right;
   padding-left: 30px;
   padding-right: 30px;
   left: 10vw;
-  font-size: 1rem;
+  font-size:calc(12px + 0.3vw);
+  
 }
 
 .card .general h1{
@@ -149,14 +151,14 @@
   padding-left: 0;
 }
 
-@media only screen and (max-width: 1170px) {
+@media only screen and (max-width: 1144px) {
   .card {
     min-height: 300px;
     box-shadow: 0 8px 16px 4px rgba(0,0,0,0.4);
     border-radius: 6px;
     overflow: hidden;
     position: relative;
-    font-size: 1rem;
+    /* font-size: 1rem; */
   }
 
   .card .additional {
@@ -186,14 +188,17 @@
     padding-top: 2rem;
     text-align: justify;
     float: right;
-    padding-left: 40px;
+    padding-left: 50px;
     padding-right: 30px;
+    font-size:calc(12px + 0.3vw);
+    /* font-size: 1.1rem; */
   }
 }
 
-@media only screen and (max-width: 1170px) {
+@media only screen and (max-width: 1144px) {
   .card .additional .user-card {
     width: 5vw;
+    min-width: 150px;
     height: 100%;
     position: relative;
     float: left;
@@ -205,10 +210,10 @@
   position: absolute;
   bottom: 1rem;
   right: 1rem;
-  font-size: 0.7em;
+  /* font-size: 0.7em; */
 }
 
-@media only screen and (max-width: 1170px) {
+@media only screen and (max-width: 1144px) {
   .card .additional .more-info {
     float: right;
     height: 100%;
@@ -222,14 +227,12 @@
     width: 40vw;
     position: absolute;
     left: 10rem;
-    right: 10rem;
-    padding-left: 30px;
-    padding-right: 30px;
     text-align: center;
+    font-size:calc(12px + 0.3vw);
   }
 }
 
-@media only screen and (max-width: 1170px) {
+@media only screen and (max-width: 1144px) {
   .card .additional .more-info .info-tech {
     display: flex;
     justify-content: center;
@@ -238,7 +241,7 @@
   }
 }
 
-  @media only screen and (max-width: 1170px) {
+  @media only screen and (max-width: 1144px) {
     .card .additional .more-info .info-tech .tech-icons{
       /* width: 35vw; */
       display: flex;
@@ -250,33 +253,32 @@
     }
   }
 
-  @media only screen and (max-width: 1170px) {
+  @media only screen and (max-width: 1144px) {
     .card .additional .more-info .info-tech .tech-icons > div
     {
 
       flex:1 1 auto;
       text-align:center;
+      justify-content: center;
       margin-left:20px; 
       margin-right: 20px;
 
     }}
-  @media only screen and (max-width: 1170px) {
+  @media only screen and (max-width: 1144px) {
     .card .additional .more-info .info-tech .tech-icons .tech-icon{
       width: 3vw;
-      
     }
   }
   
-  @media only screen and (max-width: 1170px) {
+  @media only screen and (max-width: 1144px) {
     .card .additional .more-info .info-buttons {
       grid-area: buttons;
-      /* width: 100%; */
       display: flex;
       justify-content: center;
       text-align: center;
     }
   }
-  @media only screen and (max-width: 1170px) {
+  @media only screen and (max-width: 1144px) {
     .card .additional .more-info .info-title {
       color: black;
       grid-area: title;
@@ -325,7 +327,7 @@
       padding-top: 2rem;
       text-align: justify;
       float: right;
-      padding-left: 40px;
+      padding-left: 30px;
       padding-right: 30px;
     }
   }
@@ -348,19 +350,14 @@
       float: right;
       height: 100%;
       display: grid;
-      grid-template-rows: 1fr 3fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
       grid-template-areas: "title"
-      "details"
       "icons"
-      "instructions"
       "buttons";
       width: fit-content;
-      min-width: 250px;
-      position: absolute;
-      padding-left: 30px;
-      padding-right: 30px;
+      min-width: 252px;
       text-align: center;
-      left: 10px;
+      left: 0px;
       right: 10px;
     }
   }
@@ -370,7 +367,6 @@
       display: flex;
       justify-content: center;
       align-items: right;
-      text-align: left;
     }
   }
   
@@ -399,14 +395,14 @@
     @media only screen and (max-width: 600px) {
       .card .additional .more-info .info-tech .tech-icons .tech-icon{
         width: 3vw;
-        
+        margin-bottom: -20px;
+
       }
     }
     
     @media only screen and (max-width: 600px) {
       .card .additional .more-info .info-buttons {
         grid-area: buttons;
-        /* width: 100%; */
         display: flex;
         justify-content: center;
         text-align: center;
@@ -420,6 +416,7 @@
         text-align: center;
       }
     }
+  
   
 
   

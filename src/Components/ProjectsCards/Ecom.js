@@ -7,26 +7,26 @@ import { SiRedux } from "react-icons/si";
 import { SiFirebase } from "react-icons/si";
 import { SiReact } from "react-icons/si";
 import { SiGraphql } from "react-icons/si";
-import { GrGlobe } from "react-icons/gr";
-import { SiGithub } from "react-icons/si";
+// import { GrGlobe } from "react-icons/gr";
+// import { SiGithub } from "react-icons/si";
 import { SiTypescript } from "react-icons/si";
 
 import "./CardStyles.css";
 
 export default function Ecom() {
   return (
-    <div class="center fourth">
-      <div class="card gray">
-        <div class="additional">
-          <div class="user-card">
+    <div className="center fourth">
+      <div className="card gray">
+        <div className="additional">
+          <div className="user-card">
             <FontAwesomeIcon icon={faShoppingCart} size="3x" />
           </div>
-          <div class="more-info">
+          <div className="more-info">
             <div className="info-title">
-              <h1> E-Commerce Website </h1>
+              <h1> E-Commerce </h1>
             </div>
-
             <div className="info-tech">
+            
               <div className="tech-icons">
                 <div className="tech-icon">
                   <SiRedux size={20} />
@@ -53,7 +53,7 @@ export default function Ecom() {
             </div>
 
             <div className="info-buttons">
-              <a href="https://www.google.com/">
+              {/* <a href="https://www.google.com/">
                 {" "}
                 <GrGlobe size={20} color="black" padding="3px" />{" "}
                 <h5>Live Version</h5>
@@ -62,20 +62,23 @@ export default function Ecom() {
                 {" "}
                 <SiGithub size={20} color="black" padding="3px" />{" "}
                 <h5>Github Repo</h5>
-              </a>
+              </a> */}
+              <p> <br/>More informations can be provided on request. </p>
+
+
+
             </div>
           </div>
         </div>
-        <div class="general">
-          <h2>E-Commerce Website</h2>
+        <div className="general">
+          <h1>E-Commerce</h1>
           <p>
             {" "}
-            <br /> This fully fledged e-commerce website was created to offer
-            the possibility of selling architectural models. The project
-            comprises of a mix of back-end and front-end technologies to ensure
-            the full functionality of the project.
+            Fully fledged e-commerce websites created to offer
+            the possibility of selling architectural models and bike parts. The projects
+            comprise of a mix of back-end and front-end technologies that allow easy expandability and functionality.
           </p>
-          <span class="more">Mouse over the card for more info</span>
+          <span className="more">Mouse over the card for more info</span>
         </div>
       </div>
     </div>

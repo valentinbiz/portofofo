@@ -15,12 +15,12 @@ import "./CardStyles.css";
 
 export default function Sorting() {
   return (
-    <div class="card">
-      <div class="additional">
-        <div class="user-card">
+    <div className="card">
+      <div className="additional">
+        <div className="user-card">
           <FontAwesomeIcon icon={faSquarePollVertical} size="3x" />
         </div>
-        <div class="more-info">
+        <div className="more-info">
           <div className="info-title">
             <h1> VisualSort </h1>
           </div>
@@ -59,17 +59,16 @@ export default function Sorting() {
           </div>
         </div>
       </div>
-      <div class="general">
+      <div className="general">
         <h1>VisualSort</h1>
         <p>
           {" "}
-          <br />
-          Visualisation tool built to help understand better how sorting
-          algorithms work. Application built while trying to prepare for the
-          technical interwies. This is still a work in progress, with several
+          Visualisation tool built to help better understand how sorting
+          algorithms work. Application developed while preparing for the
+          technical side of an interwiew. This is still a work in progress, with several
           other algorithms scheduled for the near future.
         </p>
-        <span class="more">Mouse over the card for more info</span>
+        <span className="more">Mouse over the card for more info</span>
       </div>
     </div>
   );

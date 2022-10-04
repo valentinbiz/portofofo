@@ -63,7 +63,7 @@ export default function Navbar() {
             tinek
           </HashLink>
         </p>
-        <nav>
+        <nav className="navigation">
           <ul className="nav__links">
             <li>
               <HashLink smooth to="/#projects">
@@ -82,10 +82,8 @@ export default function Navbar() {
               </HashLink>
             </li>
             <div className="theme-switch">
-
               <input type="checkbox" id="nightmode" />
               <label className="label-icon" htmlFor="nightmode">
-  
                 <FontAwesomeIcon icon={icon} />
               </label>
             </div>

@@ -5,8 +5,8 @@
   }
   
   header {
+    width: 100vw;
     display: flex;
-    justify-content: flex-end;
     align-items: center;
     padding: 20px 0;
   }
@@ -21,36 +21,37 @@
      padding-bottom: 2px;
   } 
 
-
-
   .logo-name{
     text-decoration: none;
     color: var(--on-background);
   }
   
   .logo {
-    margin-right: auto;
     text-decoration: none;
+    margin-left: 15%;
+  }
+
+  .navigation {
+    right: 14%;
+    position: fixed;
+    display: flex;
+    justify-content: flex-start;
   }
   
   .nav__links {
+    margin-right: 15%;
     list-style: none;
     display: flex;
+    justify-content: flex-end;
     color: var(--on-background);
   }
-  
-  .nav__links a,
-  .cta,
-  .overlay__content a {
-    color: var(--on-background);
-    text-decoration: none;
-  } 
+
   
   .nav__links li {
-    padding: 0px 20px;
+    padding: 20px 20px;
   }
   
- .logo-name, .nav__links li a {
+ .logo-name, .nav__links li a, .nightmode {
   width: fit-content;
     background-color: transparent;
     border: 0px;
@@ -62,13 +63,13 @@
    -o-transition: opacity 0.4s ease-out;
    transition: opacity 0.4s ease-out;
    position: relative;
-   width: 100%;
+   /* width: 100%; */
    padding-bottom: 2px;
    padding-top: 50px;
     
   }
 
-  .logo-name::before, .nav__links li a::before {
+  .logo-name::before, .nav__links li a::before, .nightmode {
     content: '';
     position: absolute;
     width: 100%;
@@ -94,8 +95,9 @@
   }
   
   .cta {
-    margin-left: 20px;
-    padding: 9px 25px;
+    margin-right: 15%;
+    /* margin-left: 20px; */
+    padding: 9px 40px;
     background-color: var(--background);
     border: none;
     border-radius: 50px;
@@ -112,10 +114,14 @@
     z-index: 10;
     position: fixed;
     letter-spacing: 1px;
-    width: 70%;
-    margin: 0 15% 0 0;
+    width: 100%;
+    margin-left: 0;
     background-color: var(--background);
 
+  }
+
+  .theme-switch{
+    display: flex;
   }
   
   /* Mobile Nav */
@@ -178,6 +184,7 @@
       top: 15px;
       right: 35px;
     }
+
   }
   
   @media only screen and (max-width: 800px) {
@@ -187,6 +194,12 @@
     }
     .menu {
       display: initial;
+    }
+    
+    .logo {
+      margin-right: 45%;
+      text-decoration: none;
+      margin-left: 15%;
     }
   }
   

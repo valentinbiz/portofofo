@@ -54,9 +54,9 @@ export default function Contact() {
             opportunities or just to say hi then you can do it using this form.
             I will get back to you as soon as possible! <br /> <br />{" "}
             Alternatively, feel free to send me an{" "}
-            <a href="mailto:valentin.bizzz@gmail.com">
+            <a href="mailto:valentin.bizgan@outlook.com">
               {" "}
-              <strong className="highlighted-text"> email! </strong>
+              <strong className="highlighted-text"> email! <br/> <br/><br/> <br/></strong>
             </a>
           </h3>
           <div className="animation-container" ref={animationContainerDuck} />
