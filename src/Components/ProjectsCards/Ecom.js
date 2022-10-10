@@ -63,7 +63,7 @@ export default function Ecom() {
                 <SiGithub size={20} color="black" padding="3px" />{" "}
                 <h5>Github Repo</h5>
               </a> */}
-              <p> <br/>More informations can be provided on request. </p>
+              <p> <br/>More information can be provided on request. </p>
 
 
 
