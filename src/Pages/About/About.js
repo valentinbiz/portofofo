@@ -27,7 +27,7 @@ export default class About extends React.Component {
               A few things about me
             </h2>
             <h3 data-aos="fade-up" data-aos-duration="1000">
-              I am a self thought{" "}
+              I am a self taught{" "}
               <strong className="highlighted-text">Full Stack Developer</strong>
               . With a huge passion for technology and IT ever since a very
               young age, I have started teaching myself programming in my spare
