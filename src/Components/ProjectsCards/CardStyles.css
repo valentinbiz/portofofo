@@ -15,22 +15,25 @@
   width: 10vw;
   min-width: none;
   height: 100%;
-  background: #824341;
+  background: #9a8c98;
   transition: width 0.4s;
   overflow: hidden;
   z-index: 2;
 }
 
-.card.green .additional {
-  background:  #cba9a5;
+.card.two .additional {
+  background:  #c6ac8f;
 }
 
-.card.blue .additional {
-  background: #9c5d4c ;
+.card.three .additional {
+  background: #81b29a ;
 }
 
-.card.gray .additional {
-  background: #578283;
+.card.four .additional {
+  background: #cb997e;
+}
+.card.five .additional {
+  background: #c9ada7;
 }
 
 .card:hover .additional, .card:active .additional{

@@ -47,8 +47,8 @@ export default function Main() {
             <br />{" "}
           </p>
           <h2 data-aos="fade-up" data-aos-delay="1000" data-aos-duration="1000">
-            I am a self-taught Full Stack Developer, <br /> sports and
-            literature enthusiast, <br />
+            I am a Junior Software Developer, <br /> sports and literature
+            enthusiast, <br />
             coffee lover and a die hard The Office fan.
           </h2>
           <HashLink smooth to="/#projects">

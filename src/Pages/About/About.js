@@ -27,13 +27,17 @@ export default class About extends React.Component {
               A few things about me
             </h2>
             <h3 data-aos="fade-up" data-aos-duration="1000">
-              I am a self taught{" "}
-              <strong className="highlighted-text">Full Stack Developer</strong>
+              I am a self taught / coding bootcamp graduate{" "}
+              <strong className="highlighted-text">
+                {" "}
+                Junior Software Developer
+              </strong>
               . With a huge passion for technology and IT ever since a very
               young age, I have started teaching myself programming in my spare
               time, building different sized projects in order to expand my
-              knowledge. All this while drinking ungodly amounts of coffee.{" "}
-              <br />
+              knowledge. Recently, I graduated a Software Development Bootcamp
+              at Northcoders in Manchester. All this while drinking ungodly
+              amounts of coffee. <br />
               <br />I am a{" "}
               <strong className="highlighted-text">
                 dedicated, responsible and commited{" "}
@@ -64,7 +68,7 @@ export default class About extends React.Component {
                 For more information about my studies and experience, please
                 check the attached CV{" "}
                 <a
-                  href="https://drive.google.com/file/d/1ZDUXVNFMJ6_5Pqa0MkqwaNb8ZMtQLrtC/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1jNW1IbqnoJlGRV55XyBWlohEufriR6HV/view?usp=share_link"
                   className="cv-link"
                   target="_blank"
                   rel="noreferrer"

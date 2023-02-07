@@ -60,7 +60,7 @@
 }
 
 .main-page h4::before {
-  content: '';
+  content: "";
   position: absolute;
   width: 100%;
   max-width: 0;
@@ -86,7 +86,6 @@
   max-width: 100%;
   text-decoration: none;
 }
-
 
 @media (min-width: 744px) {
   .main-page p {
@@ -138,16 +137,16 @@
 
 #background {
   top: 8%;
-  left: 0%;
+  left: 45%;
   position: absolute;
-  height: 100%;
-  width: 100%; 
+  height: 50%;
+  width: 50%;
   background: url(Circles.svg);
   background-size: 100% 100%;
   z-index: -100;
 }
 
-/* #background {
+#background {
   -webkit-animation-name: rotate;
   -webkit-animation-duration: 150s;
   -webkit-animation-iteration-count: infinite;
@@ -170,4 +169,4 @@
   to {
     transform: rotate(360deg);
   }
-} */
+}

@@ -2,41 +2,49 @@ import React from "react";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChartLine } from "@fortawesome/free-solid-svg-icons";
-
-import { GrGlobe } from "react-icons/gr";
-import { SiHtml5 } from "react-icons/si";
+import Axios from "../../logo.svg";
+import { SiFirebase } from "react-icons/si";
+import { SiReact } from "react-icons/si";
 import { SiGithub } from "react-icons/si";
-import { SiSass } from "react-icons/si";
-import { SiNetlify } from "react-icons/si";
+import { SiCypress } from "react-icons/si";
+import { SiExpo } from "react-icons/si";
 import { TbApi } from "react-icons/tb";
 
 import "./CardStyles.css";
 
-export default function Productivity() {
+export default function BenchIt() {
   return (
     <div className="center second">
-      <div className="card three">
+      <div className="card two">
         <div className="additional">
           <div className="user-card">
             <FontAwesomeIcon icon={faChartLine} size="3x" />
           </div>
           <div className="more-info">
             <div className="info-title">
-              <h1> DoitDoneit </h1>
+              <h1> BenchIt </h1>
             </div>
             <div className="info-tech">
               <div className="tech-icons">
                 <div className="tech-icon">
-                  <SiHtml5 size={20} />
-                  <h5>HTML</h5>
+                  <SiReact size={20} />
+                  <h5>React Native</h5>
                 </div>
                 <div className="tech-icon">
-                  <SiSass size={20} />
-                  <h5>SCSS</h5>
+                  <SiFirebase size={20} />
+                  <h5>Firebase</h5>
                 </div>
                 <div className="tech-icon">
-                  <SiNetlify size={20} />
-                  <h5> Netlify</h5>
+                  <SiCypress size={20} />
+                  <h5> Cypress</h5>
+                </div>
+                <div className="tech-icon">
+                  <SiExpo size={20} />
+                  <h5> Expo</h5>
+                </div>
+                <div className="tech-icon">
+                  <img src={Axios} alt="axios-icon" />
+                  <h5> Axios</h5>
                 </div>
                 <div className="tech-icon">
                   <TbApi size={20} />
@@ -46,12 +54,11 @@ export default function Productivity() {
             </div>
 
             <div className="info-buttons">
-              <a href="https://doitdoneit.netlify.app/" target="_blank"  rel="noreferrer">
-                {" "}
-                <GrGlobe size={20} color="black" padding="3px" />{" "}
-                <h5>Live Version</h5>
-              </a>
-              <a href="https://github.com/valentinbiz/Productivity" target="_blank"  rel="noreferrer">
+              <a
+                href="https://github.com/valentinbiz/benchIt"
+                target="_blank"
+                rel="noreferrer"
+              >
                 {" "}
                 <SiGithub size={20} color="black" padding="3px" />{" "}
                 <h5>Github Repo</h5>
@@ -60,12 +67,11 @@ export default function Productivity() {
           </div>
         </div>
         <div className="general">
-          <h1>DoitDoneit</h1>
+          <h1>BenchIt</h1>
           <p>
-             With procrastination being one of the biggest enemies when
-            teaching yourself a new subject, the purpose of this application is
-            to maximize productivity (pomodoro technique) while helping you keep track of your daily
-            tasks (kanban board).
+            BenchIt is a mobile application created with the mission to combat
+            loneliness by connecting individuals in their local community
+            through the shared experience of sitting on a bench and discussing.
           </p>
           <span className="more">Mouse over the card for more info</span>
         </div>
